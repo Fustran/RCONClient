@@ -1,0 +1,16 @@
+{
+  "name": "RCONClient",
+  "version": "1.0.0",
+  "description": "a simple RCON client for minecraft.",
+  "main": "./src/index.js",
+  "author": "Josh Fangrad",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "rcon": "^1.1.0",
+    "rcon-srcds": "^2.0.1"
+  }
+}
